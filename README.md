@@ -3,7 +3,9 @@
 2) i used **logging** library for error handling( to print error it provides a flexible way to log different messages)
 3) used render cloud based **PostgreSQL** database.
 4) used **.env.local** file to load senstive data like password, host, port, database, connection string etc.
-5) used **flake8** for coding style formatting
+5) used **flake8** for coding style formatting.
+6) code can load both **env** and **.env.local** both file i added **env** file.
+7) **requirements.txt** i mentioned library in this file.
  
 we can access any function using command "**python client.py --step 1**" if you want to run any function so, you have to change step as 1, 2, 3 etc. see below are the steps responsiable to run specific function.
   

@@ -316,7 +316,7 @@ def Top_five_Movie_Titles():
     cursor.execute(query_rating)
     result_rows_rating = cursor.fetchall()
 
-    print("\n top five movies based on year of release are:")
+    print("\n top five movies based on average rating:")
     rows_rating = [print(i[0]) for i in result_rows_rating]
   except Exception as e:
     logging.error("Not found or error encountered", e)
@@ -337,7 +337,7 @@ def Top_five_Movie_Titles():
     cursor.execute(query_number_rating)
     result_rows_number_rating = cursor.fetchall()
 
-    print("\n top five movies based on year of release are:")
+    print("\n top five movies based on Number of ratings given:")
     number_rating = [print(i[0]) for i in result_rows_number_rating]
   except Exception as e:
     logging.error("Not found or error encountered", e)
